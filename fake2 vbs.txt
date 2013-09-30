@@ -1,0 +1,14 @@
+http://sd32.com/browse.php?u=Oi8vd3d3LnRlb3RpLmNvbS9jb21wZXRpdGlvbnMvNDgzOS12YnNjcmlwdC10by1mb29sLW5ld2JzLWZha2UtdmlydXMuaHRtbA%3D%3D&b=5&f=norefer
+
+
+Dim code
+Dim pass
+pass = "4815162342"
+MsgBox "You have just recieved The Benzino Virus. You Have 14 days before your system will start deleting program files. Good Luck!! Your 14 Days start at: " & Time, 16, "Benzino Virus"
+Do
+code = InputBox("Please enter your 10-digit virus removal code.", "Virus Removal")
+If code<>pass Then
+MsgBox "The Code " & code & " is Invalid. If you would like a valid Virus Removal Code, please contact Ben N. E*****. at: *******@******.com."
+End If
+Loop Until code=pass
+MsgBox "You have entered a valid code. Virus Removed
